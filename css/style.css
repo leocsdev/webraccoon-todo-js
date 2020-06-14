@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+/* GENERAL */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 10px 0;
+}
+
+#output,
+p {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 16px;
+  color: #1f1f1f;
+  line-height: 35px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* END GENERAL */
+
+
+
+/* SECTION 1 */
+#section-1 {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  /* viewport height */
+  justify-content: space-around;
+  align-items: center;
+  /* Vertical Align the text */
+}
+
+#section-1 .content-block {
+  flex-basis: 50%;
+  background: #e1f7ff;
+  border-radius: 24px;
+  padding: 30px;
+  height: 280px;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.content-wrapper .section-title {
+  text-align: center;
+}
+
+.content-wrapper .section-title h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  line-height: 30px;
+
+  margin-top: 10px;
+}
+
+.content-wrapper .section-title p {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 24px;
+  color: #2d2d2d;
+  line-height: 65px;
+  margin: 0;
+}
+
+.placeholder {
+  font-size: 50px;
+  color: #a9c8d4;
+  margin-top: 80px;
+}
+
+h2 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+  line-height: 30px;
+
+  margin-top: 10px;
+}
+
+#output input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  border: 1px solid #3ea1c5;
+}
+
+#output input[type="button"] {
+  width: 100px;
+  padding: 10px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  background: #3ea1c5;
+  border: 1px solid #3ea1c5;
+  cursor: pointer;
+}
+
+#todo-list {
+  padding: 10px 73px;
+  list-style: none;
+  height: 120px;
+  overflow-y: auto;
+}
+
+#todo-list .todo-item-desc,
+#todo-list .todo-item-controls {
+  display: inline-block;
+}
+
+#todo-list .todo-item {
+  text-align: left;
+}
+
+/* END SECTION 1 */
